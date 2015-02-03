@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'uuid'
+require 'uuidgen/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "uuidgen"
-  spec.version       = UUID::VERSION
+  spec.version       = UUIDGen::VERSION
   spec.authors       = ["mikamix"]
   spec.summary       = %q{generate UUID version 3 and 5 based on RFC4122}
   spec.license       = "MIT"

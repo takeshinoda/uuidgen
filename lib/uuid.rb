@@ -1,5 +1,0 @@
-require 'uuid/uuid'
-require 'uuid/name_space'
-require 'uuid/name_based_uuid'
-require 'uuid/uuid3'
-require 'uuid/uuid5'

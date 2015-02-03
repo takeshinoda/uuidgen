@@ -1,10 +1,11 @@
 require "spec_helper"
-require "uuid"
 
-describe UUID do
+include UUIDGen
+
+describe UUIDGen do
 
   it 'has a version number' do
-    expect(UUID::VERSION).not_to be nil
+    expect(UUIDGen::VERSION).not_to be nil
   end
 end
 
